@@ -69,7 +69,12 @@
             font-size: 20px;
             z-index: 1;
             }
-
+            .m {
+            display: none;    
+            }
+            .menu:hover .m {
+                display: block;
+            }
         </style>
     </head>    
     <body>
@@ -77,7 +82,14 @@
             Григорьева Наталья
         </div>
 
-        <div class="content">
+        <div class="menu">
+        <div class="m" style="display: block;">Каталог</div> 
+        <div class="m">Товары</div>
+        <div class="m">Картинки</div>
+        <div class="m">Новости</div>
+
+
+        <div class="content" style="margin: 50px;">
             <h1>Inline</h1>
             <div class="a">block 1</div>
             <div class="a">block 2</div>
