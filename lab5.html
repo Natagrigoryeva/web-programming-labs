@@ -48,8 +48,26 @@
                 border: 2px solid rgb(1, 0, 20);
                 float: right;
             }
-            .d{
+            .d {
                 position: relative;
+            }
+            .e {
+                width: 300px;
+                height: 100px;
+                border: 2px solid rgb(5, 3, 29);
+                border-style: solid;
+                border-width: 3px;
+                background-color: #7abaee;
+                text-align: center;
+                line-height: 100px;
+            }
+            .e:hover {
+            background-clip:content-box;
+            background-color: rgb(225, 248, 15);
+            color: crimson;
+            font-family:'Times New Roman', Times, serif;
+            font-size: 20px;
+            z-index: 1;
             }
 
         </style>
@@ -97,8 +115,15 @@
                 Зимы блистательным ковром.<br>
                 Все ярко, все бело кругом.
             </div>
+            
+            <h1>Лесенка</h1>
+            <div class="e"style="position: relative; left: 10px;">Блок А</div>
+            <div class="e"style="position: relative; top: -20px; left: 30px;">Блок Б</div>
+            <div class="e"style="position: relative; top: -40px; left: 50px;">Блок В</div>
+            <div class="e"style="position: relative; top: -60px; left: 70px;">Блок Г</div>
+            <div class="e"style="position: relative; top: -80px; left: 90px;">Блок Д</div>
         </div>
-        <div class="footer">
+        <div class="footer" style="position:fixed; bottom: 0; left: 0; width: 100%;">
             Фактультет бизнеса, ФБИ-01, 3 курс, 2022
         </div>           
     </body>
