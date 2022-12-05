@@ -2,25 +2,26 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Григорьева Наталья. ФБИ-01. Лабораторная работа 6</title>
+        <title>Наталья Григорьева. ФБИ-01. Лабораторная работа 6</title>
         <link rel="stylesheet" href="lab6.css" type="text/css">
         <script>
             console.log('Всем привет!!!');
 
             let x = 33;
             let s = 'яблоки';
-            //let if = 17;
+            // let if = 17;
             console.log('x=', x, 's=', s);
         </script>
+        <script src="lab6.js"></script>
     </head>
     <body>
         <div class="header">
-           Григорьева Наталья
-           <div class="language">
+            <div id="student" onclick="studentName()">Наталья Григорьева</div>
+            <div class="language">
                 <input type="button" value="ru" onclick="setRussian()">
                 <input type="button" value="en" onclick="setEnglish()">               
             </div>
-        </div>
+         </div>
 
         <div class="content">
             <form>
@@ -42,7 +43,7 @@
             </form>
         </div>
 
-        <div class="footer">
+        <div class="footer" id="footer" onclick="infoFooter()">
             Факультет бизнеса, ФБИ-01, 3 курс, 2022
         </div>
     </body>
