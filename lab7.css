@@ -1,0 +1,22 @@
+.header {
+    color:blanchedalmond;
+    background:brown;
+    font-size: 20px;
+    height: 80px;
+    line-height: 80px;
+    padding-left: 30px;
+}
+.footer {
+    color:#333;
+    font-size: 15px;
+    font-style: italic;
+    background-color: #333;
+    text-align: right;
+    height: 30px;
+    line-height: 30px;
+    padding-right: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
