@@ -40,3 +40,9 @@
     text-align: center;
     margin: auto;
 }
+.multiplication_table {
+    width: 700px;
+    height: 500px;
+    position: absolute;
+    text-align: center;
+}

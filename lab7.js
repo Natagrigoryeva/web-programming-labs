@@ -75,8 +75,17 @@ function makeVerse() {
         steps[i].style.width = (i*10 + 300) + 'px';
     }    
 }
+function makeMT() {
+    let stepCount = 9;
+
+    for (let i = 0; i<stepCount; i++) {
+        document.write ((i+1) + ' * 17 = ' + ((i+1)*17) + "<br>");
+    }
+}  
 function AllFunctions () {
     makeStairs();
     makeSnowflakes();
     makeVerse();
+    makeMT();
+    
 }
