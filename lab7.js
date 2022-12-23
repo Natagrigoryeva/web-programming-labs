@@ -86,6 +86,5 @@ function AllFunctions () {
     makeStairs();
     makeSnowflakes();
     makeVerse();
-    makeMT();
-    
+    makeMT();   
 }
