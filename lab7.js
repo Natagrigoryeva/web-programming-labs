@@ -79,7 +79,7 @@ function makeMT() {
     let stepCount = 9;
 
     for (let i = 0; i<stepCount; i++) {
-        document.write ((i+1) + ' * 5 = ' + ((i+1)*17) + "<br>");
+        document.write ((i+1) + ' * 15 = ' + ((i+1)*15) + "<br>");
     }
 }  
 function AllFunctions () {
