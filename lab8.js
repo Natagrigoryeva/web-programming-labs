@@ -24,3 +24,13 @@ function showTime() {
 
 window.addEventListener('load', showTime);
 setInterval(showTime, 1000);
+
+function showroundDate() {
+    let inputDate = document.querySelector('input[type=date]');
+    let birthday = new Date(inputDate.value);
+    let days = document.querySelector('input[type=number]').value;
+    let roundDate = birthday.getTime() + days*24*60*60*1000;
+    roundDate = new Date(roundDate);
+
+    resdays.innerHTML = 'Круглая дата:' + ' ' + roundDate;
+}
