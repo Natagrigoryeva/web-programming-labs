@@ -25,3 +25,11 @@ body {
     left: 0;
     right: 0;
 }
+#coords {
+    height: 500px;
+    width: 500px;
+    background-color: rgb(8, 2, 48);
+    color: rgb(241, 241, 241);
+    text-align: center;
+    line-height: 30em;
+}

@@ -31,3 +31,11 @@ function knopka (button) {
     }
 }
 
+function showCoords(event) {
+    event.target.innerHTML = 'x = ' + event.offsetX + ', y = ' + event.offsetY + ' ' + 
+    (event.ctrlKey? '<b>Ctrl</b>': '<s>Ctrl</s>') + ' ' + (event.shiftKey? '<b>Shift</b>': '<s>Shift</s>') + ' ' + (event.altKey? '<b>Alt</b>': '<s>Alt</s>');
+}
+window.addEventListener('DOMContentLoaded', function() {
+    let coords = document.querySelector('#coords');
+    coords.addEventListener('mousemove', showCoords);
+})
