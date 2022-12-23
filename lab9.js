@@ -61,3 +61,12 @@ window.addEventListener('DOMContentLoaded', function() {
     texts[2].addEventListener('blur', showBlur);
 });
 
+function showOutput(event){
+    document.getElementById('output').innerHTML = event.target.value;
+}
+window.addEventListener('DOMContentLoaded', function() {
+let texts = document.querySelectorAll('input[type="text"]');
+    texts[0].addEventListener('change', showOutput);
+    texts[1].addEventListener('change', showOutput);
+    texts[2].addEventListener('change', showOutput);
+})
