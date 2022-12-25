@@ -21,7 +21,7 @@ function setRussian() {
 
 function setEnglish() {
     let name = document.getElementById('student');
-    name.innerHTML = 'Julia Prokhorenko';
+    name.innerHTML = 'Grigoryeva Natalia';
 
     let footer = document.getElementById('footer');
     footer.innerHTML = 'Faculty of Business, FBI-01, 3rd year, 2022';
